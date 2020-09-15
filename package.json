@@ -1,0 +1,27 @@
+{
+  "name": "datastorejs",
+  "version": "0.1.0",
+  "description": "Simple JSON Datastore for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/power-industries/DatastoreJS.git"
+  },
+  "author": "Philipp Steckenbauer <philipp@steckenbauer.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/power-industries/DatastoreJS/issues"
+  },
+  "homepage": "https://github.com/power-industries/DatastoreJS#readme",
+  "dependencies": {
+    "@power-industries/schemajs": "^1.2.0",
+    "@power-industries/typejs": "^1.1.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.0"
+  }
+}
