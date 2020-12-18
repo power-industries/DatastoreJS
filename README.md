@@ -74,3 +74,20 @@ updateBySchema
 delete
 deleteByID
 deleteBySchema
+
+## Error Messages
+
+**[CONSTRUCTOR - 1]**
+Parameter adapter is not an instance of an Adapter
+
+**[CONSTRUCTOR - 2]**
+Parameter config is not of Type Object
+
+**[CONSTRUCTOR - 3]**
+Property autoLoad of Parameter config is not of Type Boolean
+
+**[CONSTRUCTOR - 4]**
+Property validate of Parameter config is not of Type Function or Null
+
+**[CONSTRUCTOR - 1]**
+Parameter adapter is not an instance of an Adapter
