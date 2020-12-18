@@ -1,6 +1,6 @@
 {
   "name": "@power-industries/datastorejs",
-  "version": "1.0.0-beta.5",
+  "version": "1.0.0-beta.6",
   "description": "Simple JSON Datastore",
   "main": "index.js",
   "scripts": {},
