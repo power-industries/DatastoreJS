@@ -1,7 +1,7 @@
 const Datastore = require('./lib/Datastore.class');
 const Adapter = require('./lib/Adapter/Adapter.class');
-const MemoryAdapter = require('./lib/Adapter/Adapter.class');
-const FileAdapter = require('./lib/Adapter/Adapter.class');
+const MemoryAdapter = require('./lib/Adapter/Memory.Adapter.class');
+const FileAdapter = require('./lib/Adapter/File.Adapter.class');
 
 module.exports = {
 	DataStore: Datastore,
