@@ -16,11 +16,9 @@
   "homepage": "https://github.com/power-industries/DatastoreJS#readme",
   "dependencies": {
     "@power-industries/typejs": "^1.1.1",
-    "lodash.clonedeep": "^4.5.0",
     "uuid": "^8.3.1"
   },
   "devDependencies": {
-    "@types/lodash.clonedeep": "^4.5.6",
     "@types/node": "^14.14.10",
     "@types/uuid": "^8.3.0"
   }
