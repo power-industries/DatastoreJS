@@ -10,7 +10,11 @@ Use the package manager NPM to install DataStoreJS into your NodeJS Project.
 npm install --save @power-industries/datastorejs
 ```
 
-Alternatively you can also install the latest Beta Version via NPM.
+Alternatively you can also install the latest Alpha or Beta Version via NPM.
+
+```bash
+npm install --save @power-industries/datastorejs@alpha
+```
 
 ```bash
 npm install --save @power-industries/datastorejs@beta
