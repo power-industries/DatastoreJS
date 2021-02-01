@@ -1,6 +1,6 @@
 {
   "name": "@power-industries/datastorejs",
-  "version": "1.0.0-beta.17",
+  "version": "1.0.0-beta.18",
   "description": "Simple JSON Datastore",
   "engines": {
     "node": ">=14.6.0",
@@ -20,11 +20,13 @@
   "homepage": "https://github.com/power-industries/DatastoreJS#readme",
   "dependencies": {
     "lodash.clonedeep": "^4.5.0",
+    "lodash.merge": "^4.6.2",
     "uuid": "^8.3.1"
   },
   "devDependencies": {
     "@types/lodash.clonedeep": "^4.5.6",
-    "@types/node": "^14.14.10",
+    "@types/lodash.merge": "^4.6.6",
+    "@types/node": "^14.14.22",
     "@types/uuid": "^8.3.0"
   }
 }

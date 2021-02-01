@@ -1,93 +1,39 @@
-# DatastoreJS
-Simple JSON Datastore
+# DataStoreJS
 
-## Features:
+Simple JSON DataStore
 
-### Adapters
+## Installation
 
-DatastoreJS features 2 built-in Adapters: MemoryAdapter and FileAdapter. Both extend the abstract Adapter Class.
-Custom Adapters can be written and used by extending the abstract Adapter Class.
+Use the package manager NPM to install DataStoreJS into your NodeJS Project.
 
-- MemoryAdapter loads and writes data from/to RAM, i.e. a Variable. All Data is lost when the process gets stopped.
-- FileAdapter loads and writes data from/to Disk, i.e. a File.
+```bash
+npm install --save @power-industries/datastorejs
+```
 
-### Schemas
+Alternatively you can also install the latest Beta Version via NPM.
 
-DatastoreJS uses SchemaJS to provide powerful Schema Validation and Parsing. Schemas can even be used for querying.
+```bash
+npm install --save @power-industries/datastorejs@beta
+```
 
-### autoLoad/autoWrite
+You can then import the module into your JavaScript File.
 
-DatastoreJS supports automatic loading on startup. This allows for direct usage without having to call .load() manually.
-DatastoreJS also supports automatic writing in Intervals. This is great for continuous persistence without writing 
-  after every change.
+```javascript
+const Type = require('@power-industries/datastorejs');
+```
 
-### autoIntegrity
+## Contributing
 
-DatastoreJS can perform Integrity checks on load (including autoLoad). Integrity checks are Schema Validations performed 
-  on every Record in the Datastore.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### Manual load/write/integrityCheck
+## License
 
-DatastoreJS allows for manual load, write and integrityCheck calls.
+MIT License
 
-### Events
+Copyright (c) 2020 Power Industries Corporation
 
-DatastoreJS supports function execution (as Events) on the following occasions:
-  - onLoad
-  - onWrite
-  - onAutoWrite
-  - onIntegrity
-  - onInsert
-  - onFind
-  - onUpdate
-  - onDelete
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-### MetaData
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-DatastoreJS automatically saves the following MetaData inside every record
-  - _id
-  - _createdAt
-  - _modifiedAt
-
-as well as the following MetaData inside the Datastore
-  - _recordCount
-  - _eventCount
-
-### CRUD
-
-DatastoreJS supports the following CRUD operations:
-
-insertOne
-insertMany
-find
-findByID
-findBySchema
-
-filter
-filterByID
-filterBySchema
-
-update
-updateByID
-updateBySchema
-
-delete
-deleteByID
-deleteBySchema
-
-## Error Messages
-
-**[CONSTRUCTOR - 1]**
-Parameter adapter is not an instance of an Adapter
-
-**[CONSTRUCTOR - 2]**
-Parameter config is not of Type Object
-
-**[CONSTRUCTOR - 3]**
-Property autoLoad of Parameter config is not of Type Boolean
-
-**[CONSTRUCTOR - 4]**
-Property validate of Parameter config is not of Type Function or Null
-
-**[CONSTRUCTOR - 1]**
-Parameter adapter is not an instance of an Adapter
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
