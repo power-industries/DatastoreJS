@@ -1,6 +1,6 @@
 {
   "name": "@power-industries/datastorejs",
-  "version": "2.0.0-alpha.1",
+  "version": "2.0.0-alpha.2",
   "description": "Powerful JSON Datastore",
   "engines": {
     "node": ">=14.6.0",
